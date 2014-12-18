@@ -164,7 +164,7 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/ejercicio[1,2].html']
+        src: ['<%= config.app %>/ejercicio[1,2,3].html']
       }
     },
 
@@ -190,7 +190,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/ejercicio[1,2].html'
+      html: '<%= config.app %>/ejercicio[1,2,3].html'
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
